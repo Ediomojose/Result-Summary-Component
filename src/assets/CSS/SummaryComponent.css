@@ -65,6 +65,18 @@
 
     @media (width >= 640px ){
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 0 2.5rem;
+        box-shadow: 1px 0px 10px var(--pale-blue);
+        border-radius: 2rem;
+    }
+
+    @media (width >= 1024px){
+        width: 60%;
+    }
+
+    @media (width >= 1526px){
+        width: 40%;
     }
 }
 
@@ -81,6 +93,10 @@
         color: var(--light-lavender);
         font-family: HankenGrotesk-Bold;
         font-size: 1.2rem;
+    }
+
+    @media (width >= 640px){
+       border-radius: 1rem;
     }
 
 }
@@ -124,5 +140,90 @@
 }
 
 .summary--container{
+    display: flex;
+    flex-direction: column;
 
+    & h1{
+        font-family: HankenGrotesk-Bold;
+        font-size: 1.2rem;
+    }
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem;
+    margin: 0;
+
+    & li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem 0;
+    }
+}
+
+li:nth-child(1){
+    color: var(--light-red);
+    background-color: hsl(0, 100%, 67%, 0.1);
+    border-radius: .5rem;
+    padding: .8rem 1rem;
+}
+
+li:nth-child(2){
+    color: var(--orangey-yellow);
+    background-color: hsl(39, 100%, 56%, 0.1);
+    border-radius: .5rem;
+    padding: .8rem 1rem;
+
+}
+
+li:nth-child(3){
+    color: var(--green-teal);
+    background-color: hsl(166, 100%, 37%, 0.1);
+    border-radius: .5rem;
+    padding: .8rem 1rem;
+
+}
+
+li:nth-child(4){
+    color: var(--cobalt-blue);
+    background-color: hsl(234, 85%, 45%, 0.1);
+    border-radius: .5rem;
+    padding: .8rem 1rem;
+
+}
+
+.icon--des{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & .title{
+        font-family: HankenGrotesk-Bold;
+    }
+}
+
+.score--block{
+    color: var(--dark-gray-blue);
+    font-family: HankenGrotesk-ExtraBold;
+
+    & .score{
+        font-family: HankenGrotesk-ExtraBold;
+    }
+}
+
+button{
+    font-family: HankenGrotesk-Medium;
+    font-size: 1.3rem;
+    border-radius:2rem;
+    padding: .8rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 1rem 1.5rem;
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
 }

@@ -25,12 +25,12 @@ const SummaryCard = () => {
             {
               SummaryData.map((item, idx)=>(
                 <li key={idx}>
-                  <div>
+                  <div className='icon--des'>
                     <span>{item.icon}</span>
-                    <span>{item.title}</span>
+                    <span className='title'>{item.title}</span>
                   </div>
-                  <div>
-                    <span>{item.score}</span>
+                  <div className='score--block'>
+                    <span className='score'>{item.score}</span>
                     <span>/</span>
                     <span>100</span>
                   </div>
