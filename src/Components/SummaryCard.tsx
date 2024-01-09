@@ -5,7 +5,7 @@ const SummaryCard = () => {
   return (
     <>
     <main className='card--body'>
-        
+        <section className='result--container'></section>
     </main>
     </>
   )
