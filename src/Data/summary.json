@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "svgData": "../Assets/images/icon-reaction.svg",
+        "title": "Reaction",
+        "score": "80"
+    },
+
+    {
+        "id": 2,
+        "svgData": "../Assets/images/icon-memory.svg",
+        "title": "Memory",
+        "score": "92"
+    },
+
+    {
+        "id": 3,
+        "svgData": "../Assets/images/icon-verbal.svg",
+        "title": "Verbal",
+        "score": "61"
+    },
+
+    {
+        "id": 4,
+        "svgData": "../Assets/images/icon-visual.svg",
+        "title": "Visual",
+        "score": ""
+    }
+]
