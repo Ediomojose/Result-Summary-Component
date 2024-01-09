@@ -1,3 +1,4 @@
+import React from 'react'
 import '../Assets/CSS/SummaryComponent.css'
 import SummaryData from "../Data/SummaryData"
 
